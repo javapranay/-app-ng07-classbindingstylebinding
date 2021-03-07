@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ClassbindingComponent implements OnInit {
 
   public effects: any;
-  public isBackStyle = true;
-  public isTextStyle = true;
-  public isBorderStyle = true;
+  public isBackStyle = false;
+  public isTextStyle = false;
+  public isBorderStyle = false;
 
   constructor() { }
 
