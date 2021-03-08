@@ -1,0 +1,22 @@
+<fieldset>
+    <legend>Select Effects:</legend>
+    <dl>
+        <dt>Background Color:</dt>
+        <dd>
+            <select [(ngModel)]="backColor">
+                <option>green</option>
+                <option>blue</option>
+                <option>red</option>
+            </select>
+        </dd>
+        <dt>Text Color:</dt>
+        <dd>
+            <select [(ngModel)]="textColor">
+                <option>white</option>
+                <option>yellow</option>
+                <option>grey</option>
+            </select>
+        </dd>
+    </dl>
+</fieldset>
+<h2 [ngStyle]="effects()">Style Binding</h2>

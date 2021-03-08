@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { ClassbindingComponent } from './classbinding/classbinding.component';
+import { StylebindingComponent } from './stylebinding/stylebinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClassbindingComponent
+    ClassbindingComponent,
+    StylebindingComponent
   ],
   imports: [
     BrowserModule,

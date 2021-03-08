@@ -13,6 +13,6 @@
         <li><input type="checkbox" [(ngModel)]="isBorderStyle">Border Effects</li>
     </ul>
 </fieldset>
-<h2 [ngClass]="{backEffects:isBackStyle, textEffects:isTextStyle, borderEffects: isBorderStyle}">Sample Text</h2>
+<h2 [ngClass]="{backEffects:isBackStyle, textEffects:isTextStyle, borderEffects: isBorderStyle}">Class Binding with obect to turn ON/OFF classes dynamically</h2>
 <br>
-<h2 [ngClass]="['backEffects', 'textEffects', 'borderEffects']">Sample Text</h2>
+<h2 [ngClass]="['backEffects', 'textEffects', 'borderEffects']">Class Binding with array of classes</h2>
